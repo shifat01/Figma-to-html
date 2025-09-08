@@ -91,7 +91,6 @@ body {
   letter-spacing: -0.1px;
   color: #9a9ea7;
   margin-left: 10px;
-  margin-top: 10px;
 }
 
 .form-select {
@@ -124,7 +123,38 @@ body {
   letter-spacing: -0.1px;
 }
 
-.headerButton:hover{
+.headerButton:hover {
   background-color: black;
   color: white;
+}
+
+.borderRight {
+  border-right: 1px solid #ede8e9;
+  height: 40px;
+  margin-top: 15px;
+}
+
+.someMargin {
+  margin-top: 30px;
+}
+
+
+/* responsive */
+@media all and (max-width: 767px) {
+  .section1 h1 {
+    font-size: 38px;
+  }
+
+  .sectionP {
+    font-size: 16px;
+  }
+
+  .topFooter {
+    height: 120px;
+  }
+
+  .headerButton {
+    width: 95%;
+    padding: 17px 0px;
+  }
 }
