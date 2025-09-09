@@ -166,4 +166,15 @@ body {
     width: 95%;
     padding: 17px 0px;
   }
+
+  
+
+  .section2{
+    margin-top: 320px;
+    margin-left: 50px;
+  }
+
+  .section2 img{
+    margin-top: 20px;
+  }
 }
