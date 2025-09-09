@@ -139,6 +139,15 @@ body {
 }
 
 
+.section2{
+  margin-top: 120px;
+  margin-bottom: 100px;
+  margin-left: 170px;
+}
+
+
+
+
 /* responsive */
 @media all and (max-width: 767px) {
   .section1 h1 {
