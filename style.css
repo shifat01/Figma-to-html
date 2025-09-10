@@ -366,12 +366,11 @@ body {
   }
 }
 
-
 /* section5 */
 
-.section5{
+.section5 {
   margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 .carfinder-section-x {
   max-width: 1000px;
@@ -491,3 +490,116 @@ body {
 .carfinder-other-item-x span {
   font-weight: normal;
 }
+
+.footer-section-y {
+  background: #f7f8fa;
+  padding: 40px 60px;
+}
+
+.footer-links-y {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.footer-column-y h4 {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #111;
+}
+
+.footer-column-y ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-column-y ul li {
+  margin-bottom: 10px;
+}
+
+.footer-column-y ul li a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #555;
+  transition: 0.3s;
+}
+
+.footer-column-y ul li a:hover {
+  color: #000;
+}
+
+@media (max-width: 768px) {
+  .footer-links-y {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer-links-y {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* footer 2 */
+
+.footer_z_box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+  color: #555;
+  padding: 10px 20px;
+  border-top: 1px solid #e0e0e0;
+}
+
+.footer_left_z {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.footer_left_z a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 600;
+}
+
+.footer_center_z {
+  color: #888;
+}
+
+.footer_right_z {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.footer_right_z div {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.footer_icon_z {
+  width: 14px;
+  height: 14px;
+  /* Put your small globe icon here */
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.footer_dots_z {
+  width: 14px;
+  height: 14px;
+  /* Put your three-dots icon here */
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+
