@@ -298,7 +298,6 @@ body {
   border-radius: 12px;
 }
 
-
 /* responsive */
 @media all and (max-width: 767px) {
   .section1 h1 {
@@ -332,14 +331,14 @@ body {
     margin-bottom: 10px;
   }
 
-  .cardperatext1{
+  .cardperatext1 {
     display: none;
   }
 
-  .cardperatext2{
+  .cardperatext2 {
     display: none;
   }
-  .cardperaimg{
+  .cardperaimg {
     margin-bottom: 5px;
   }
 
@@ -358,11 +357,137 @@ body {
     margin-top: 30px;
   }
 
-  .counter{
+  .counter {
     margin-left: 80px;
   }
 
-  .Activeauctions{
+  .Activeauctions {
     margin-left: 50px;
   }
+}
+
+
+/* section5 */
+
+.section5{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.carfinder-section-x {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.carfinder-header-x {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.carfinder-header-x h2 {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.carfinder-tabs-x {
+  display: flex;
+  gap: 20px;
+  font-size: 14px;
+}
+
+.carfinder-tabs-x span {
+  cursor: pointer;
+  padding: 6px 14px;
+  border-radius: 20px;
+  transition: 0.3s;
+  color: #666;
+}
+
+.carfinder-tabs-x .active {
+  background: #f5f5f5;
+  font-weight: bold;
+  color: #000;
+}
+
+.carfinder-main-x {
+  display: flex;
+  gap: 50px;
+}
+
+.carfinder-popular-x {
+  width: 250px;
+}
+
+.carfinder-popular-x h3 {
+  font-size: 14px;
+  font-weight: normal;
+  margin-bottom: 15px;
+  color: #666;
+}
+
+.carfinder-popular-list-x {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.carfinder-popular-item-x {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.carfinder-popular-item-x:hover {
+  background: #f8f8f8;
+}
+
+.carfinder-popular-left-x {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.carfinder-popular-left-x img {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+}
+
+.carfinder-popular-left-x span {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.carfinder-popular-count-x {
+  font-size: 13px;
+  color: #666;
+  margin-left: 42px;
+}
+
+.carfinder-arrow-x {
+  color: #888;
+  font-size: 18px;
+}
+
+.carfinder-others-x {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px 50px;
+}
+
+.carfinder-other-item-x {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  color: #444;
+}
+
+.carfinder-other-item-x span {
+  font-weight: normal;
 }
