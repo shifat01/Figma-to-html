@@ -2,18 +2,28 @@
 
 This project is a **Figma design to responsive website** conversion built with **HTML, CSS, Bootstrap, and JavaScript**.  
 The goal of this project is to practice converting UI/UX designs into real, functional web pages.  
+# 🚗 Car Seller Website  
+
+This project is a **Car Seller Website** converted from a Figma design into a responsive web application using **HTML, CSS, Bootstrap, and JavaScript**.  
+The website showcases cars for sale with modern UI design and smooth interactions.  
+
 
 ---
 
 ## 🚀 Features  
-- Pixel-perfect design conversion from Figma  
-- Responsive layout using **Bootstrap Css**  
-- Clean and reusable **HTML & CSS** structure  
+- Responsive design for desktop, tablet, and mobile  
+- Car listing with images and details  
+- Navigation bar and footer  
+- Interactive buttons and animations with JavaScript  
+- Built with Bootstrap 5
 
 ---
-🌐 Live Demo: 
+### 🌐 Live Demo: [Click here](https://carsellerweb.netlify.app/)
+### Or, Link: https://carsellerweb.netlify.app
+ 
+
 ---
----
+
 📸 Preview
 1. ![Screenshot](images/preview/Screenshot_1.png)
 2. ![Screenshot](images/preview/Screenshot_2.png)
