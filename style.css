@@ -589,7 +589,6 @@ body {
 .footer_icon_z {
   width: 14px;
   height: 14px;
-  /* Put your small globe icon here */
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -597,7 +596,7 @@ body {
 .footer_dots_z {
   width: 14px;
   height: 14px;
-  /* Put your three-dots icon here */
+  
   background-size: contain;
   background-repeat: no-repeat;
 }
