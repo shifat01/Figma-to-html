@@ -39,6 +39,6 @@ The goal of this project is to practice converting UI/UX designs into real, func
 
 If you’d like to improve this project, feel free to fork the repo and submit a pull request.
 
-📜 License
-
+## 📝 License
+- [MIT License](LICENSE)
 
